@@ -81,7 +81,6 @@ func main() {
 		empSlice = append(empSlice, emp)
 
 		if strings.TrimSpace(res) == "Q" {
-			fmt.Println("inside if")
 			break
 		}
 	}
